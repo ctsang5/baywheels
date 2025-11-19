@@ -6,4 +6,4 @@ I created a panel dataset of SF Muni bus routes with monthly average daily board
 
 Controlling for route fixed effects and year-month fixed effects, **I find that adding one more bikeshare station within 400 meters of a bus route is associated with a 1.47 percent increase in average daily bus ridership on that route.** Put in another way, my result is consistent with the idea that bikeshare stations complement, rather than substitute, Muni bus services.
 
-
+![San Francisco Bay Wheels Station Growth](sf_bikeshare_growth.gif)
