@@ -1,0 +1,8 @@
+pandas
+geopandas 
+contextily
+matplotlib
+numpy
+linearmodels
+pillow
+pyarrow
