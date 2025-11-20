@@ -2,9 +2,6 @@
 
 I investigate whether the expansion of the Bay Wheels bikeshare network acts as a substitute or a complement to SFMTA bus ridership. Using geospatial mapping and a Difference in Differences framework, I analyze monthly average ridership trends from January 2019 to August 2025.
 
-![Bay Wheels Expansion](sf_bikeshare_growth.gif)
-*The growth of Bay Wheels stations (red) and the bus routes (blue) from 2019 to 2025. Note, by the end of 2019 there were already 206 Bay Wheels stations in San Francisco*
-
 **I find that adding one more bikeshare station within 400 meters of a bus route is associated with a 1.47 percent increase in average daily bus ridership on that route.** Put in another way, my result is consistent with the idea that Bay Wheels stations act as a complement, rather than a substitute, to Muni bus services.
 
 ### How did I define the treatment?
