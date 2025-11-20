@@ -9,3 +9,8 @@ In short, I checked if a bus route passed near a bikeshare station that was acti
 
 ![Treatment Definition](method_treatment_definition.gif)
 *The blue line is the bus route for the 18 and the orange boundary represents the 400 meter buffer zone around its stops. The red dots are active Bay Wheels stations outside the buffer zone, and the green dots are active stations inside the buffer zone.*
+
+# Data sources
+Baywheels: https://www.lyft.com/bikes/bay-wheels/system-data
+SFMTA (monthly average weekday ridership): https://www.sfmta.com/reports/average-daily-muni-boardings-route-and-month-pre-pandemic-present
+SFMTA (stops/trips/routes/shapes): https://www.sfmta.com/reports/gtfs-transit-data
