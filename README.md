@@ -25,6 +25,8 @@ To support my result, I use an event study to test for parallel pre trends. The 
   <em></em>
 </div>
 
+My paper can be downloaded [here](baywheels_paper.pdf).
+
 # Data 
 - [Baywheels](https://www.lyft.com/bikes/bay-wheels/system-data) (download all csv files up to August 2025 (including) and place into `data/raw/`)
 - [SFMTA (monthly average weekday ridership)](https://www.sfmta.com/reports/average-daily-muni-boardings-route-and-month-pre-pandemic-present) (throw into `data/raw/`)
