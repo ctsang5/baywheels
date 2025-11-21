@@ -13,6 +13,6 @@ To standardize inconsistent station names across years of Bay Wheels data, I cre
 **I find that adding one more bikeshare station within 400 meters of a bus route is associated with a 1.47 percent increase in average daily bus ridership on that route.** So my result is consistent with the idea that Bay Wheels stations act as a complement, rather than a substitute, to Muni buses.
 
 # Data sources
-- Baywheels: https://www.lyft.com/bikes/bay-wheels/system-data
-- SFMTA (monthly average weekday ridership): https://www.sfmta.com/reports/average-daily-muni-boardings-route-and-month-pre-pandemic-present
-- SFMTA (stops/trips/routes/shapes): https://www.sfmta.com/reports/gtfs-transit-data
+- [Baywheels](https://www.lyft.com/bikes/bay-wheels/system-data) (download all csv files up to August 2025 (including) and place into `data/raw/`)
+- [SFMTA (monthly average weekday ridership)](https://www.sfmta.com/reports/average-daily-muni-boardings-route-and-month-pre-pandemic-present) (throw into `data/raw/`)
+- [SFMTA (stops/trips/routes/shapes)](https://www.sfmta.com/reports/gtfs-transit-data) (unzip into `data/raw/`)
