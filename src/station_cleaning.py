@@ -1,5 +1,5 @@
 import pandas as pd
-
+from typing 
 def get_words_to_search_with(station_names: list):
     """
     Analyze station names to find key words for matching based on the word "AT". 
@@ -27,6 +27,34 @@ def get_words_to_search_with(station_names: list):
 
 
 def standardize_stations(pair_pattern: list, station_name: str, station_id: str, ride_time, station_lat: str, station_lng: str, df: pd.DataFrame): 
+    """
+    Standardizes inconsistent station names by grouping matched names and then checks if the station latitudes are not different by more than LATITUDE_THRESHOLD
+
+    Parameters
+    ----------
+    pair_pattern : List[Tuple[str,str]])
+        A list of word pairs used to identify potential name matches (e.g., [('4th', 'Street')] )
+    station_name : str
+        The column name for station names 
+    station_id : str
+        The column name for station ids 
+    ride_time : str
+        The datetime column used to put the most recent trip record at the top. I use that to fill station ids later (see .iat[0])
+    station_lat : str
+        Column name for station latitude
+    station_lng : str
+        Column name for station longitude
+    df : pd.DataFrame
+        The dataframe containing Bay Wheels trip records
+
+    Returns
+    -------
+    standardized_station_id_list, same_station_name_same_station_id_list, different_station_name_list, different_latitude_list : Tuple[list, list, list, list]
+        1. standardized_station_id_list: list of processed and standardized DataFrames 
+        2. same_station_name_same_station_id_list: list of DataFrames with exactly one station name and maybe a missing station id
+        3. different_station_name_list: list of DataFrames that have mismatching station names and maybe mismatching station ids
+        4. different_latitude_list: list of DataFrames that contain different station latitudes greater than LATITUDE THRESHOLD (0.03)
+    """
     
     df = df.copy()
     df[station_name] = df[station_name].astype('string[pyarrow]')
