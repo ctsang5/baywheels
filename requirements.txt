@@ -1,8 +1,10 @@
 pandas
+pyarrow
 geopandas 
 contextily
+shapely
 matplotlib
 numpy
 linearmodels
-pillow
-pyarrow
+
+
