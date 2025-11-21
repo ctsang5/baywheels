@@ -18,7 +18,7 @@ To standardize inconsistent station names across years of Bay Wheels data, I cre
 <div align="center">
   <img src="event_study_baywheels.png" alt="Treatment Definition">
   <br>
-  <em>t = -1 as the baseline</em>
+  <em></em>
 </div>
 
 # Data 
