@@ -6,7 +6,7 @@ I investigate the causal effect of the Bay Wheels network expansion on SFMTA (Mu
 To identify the bikeshare stations within 400 meters of a bus route, I defined treatment zones using 400 meter buffers around the route's stops. Using GTFS shapefiles and Bay Wheels station coordinates, I tracked when that route saw a bikeshare station open within its treatment zones.
 
 <div align="center">
-  <img src="method_treatment_definition.gif" alt="Treatment Definition">
+  <img src="figures/method_treatment_definition.gif" alt="Treatment Definition">
   <br>
   <sub>
   <em>A visualization of how I defined the treatment. The blue line is the bus route (the 18 bus). The orange shaded areas are the treatment zones. A green dot is a     bikeshare station within the treatment zone.</em> 
@@ -20,7 +20,7 @@ I used a two way fixed effects model to estimate the causal effect, controlling 
 To support my result, I use an event study to test for parallel pre trends. The result showed that the pre treatment coefficients are statistically insignificant. In other words, the treated and control routes have similar trends before Bay Wheels stations appeared.
 
 <div align="center">
-  <img src="event_study_baywheels.png" alt="Treatment Definition">
+  <img src="figures/event_study_baywheels.png" alt="Treatment Definition">
   <br>
   <em></em>
 </div>
