@@ -3,7 +3,7 @@
 I investigate the causal effect of the Bay Wheels network expansion on SFMTA (Muni) bus ridership. **I find that adding one more bikeshare station within 400 meters of a bus route is associated with a 1.47% increase in average daily bus ridership on that route.** My result is consistent with the idea that Bay Wheels stations act as a complement, rather than a substitute, to Muni buses. 
 
 ### Methods
-To identify the bikeshare stations within 400 meters of a bus route, I defined treatment zones using 400 meter buffers around the route's stops. Using GTFS shapefiles and Bay Wheels station coordinates, I tracked when that route saw a bikeshare station open.
+To identify the bikeshare stations within 400 meters of a bus route, I defined treatment zones using 400 meter buffers around the route's stops. Using GTFS shapefiles and Bay Wheels station coordinates, I tracked when that route saw a bikeshare station open within its treatment zones.
 
 <div align="center">
   <img src="method_treatment_definition.gif" alt="Treatment Definition">
