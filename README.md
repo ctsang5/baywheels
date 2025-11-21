@@ -25,7 +25,7 @@ To support my result, I use an event study to test for parallel pre trends. The 
   <em></em>
 </div>
 
-My paper can be downloaded [here](baywheels_paper.pdf).
+My paper can be downloaded [here](Baywheels Paper.pdf).
 
 # Data 
 - [Baywheels](https://www.lyft.com/bikes/bay-wheels/system-data) (download all csv files up to August 2025 (including) and place into `data/raw/`)
